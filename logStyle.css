@@ -1,0 +1,21 @@
+h1 {
+	display: flex;
+	flex-wrap: wrap;
+	margin:90px 0px 0px 300px;
+}
+
+.form {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 20px 300px 10px 300px;
+	background-color: white;
+	padding: 10px 10px 10px 10px;
+}
+
+body {
+	background-color: rgba(220, 220, 220, 0.5);
+}
+
+#sub_btn{
+	margin-top: 10px;
+}	
