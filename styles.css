@@ -1,0 +1,136 @@
+header > h3 {
+  font-size: 0.8em;
+  margin-left: 85px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: auto;
+}
+article {
+  flex:2;
+  overflow-y: auto;
+}
+
+aside {
+  flex: 1;
+  overflow-y: auto;
+}
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 10px 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 400px;
+  overflow: hidden
+}
+
+.slideshow > div > img {
+  width: 100%;
+}
+
+/* Caption text */
+.text {
+  color: #ffffff;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  top: -8px;
+  right: -11.5px;
+  margin: 0;
+  height: 100%;
+  text-align: right;
+}
+.text > p {
+  background-color: #b3b3ff;
+  padding: 5px;
+}
+.discover {
+  text-align: center;
+  line-height: 1.5;
+  font-size: 1.15em;
+}
+
+
+.info-cards {
+  display: flex;
+  justify-content: space-between;
+}
+div.card {
+  width: 200px;
+  height: 250px;
+}
+
+.info-cards:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.info-cards > div:hover {
+  transform: scale(1.1);
+  text-align: right;
+  font-size: 1em;
+}
+
+.blog {
+  line-height: 1.5;
+  text-align: justify;
+  font-size: 1.2em;
+}
+.month {
+  text-align: center;
+}
+.month > img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  /*width: 150px;*/
+}
+
+.month > img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
